@@ -6,6 +6,10 @@ A responsive single-page website concept for Yosef Cleaning Solutions, built wit
 
 Open `index.html` in a browser, or run `python -m http.server 8000` from this directory and visit `http://localhost:8000`.
 
+## Before customer launch
+
+The Vercel URL is a presentation preview, not a completed production handoff. The quote form is intentionally non-functional until a real email/form endpoint is configured, and the chatbot is a static FAQ assistant rather than generative AI.
+
 ## Before launch
 
 - Confirm the relationship between Yosef, Jose, Luna Services, and Aida mentioned in the supplied customer reviews. The site labels reviewers generically and includes a transparency note.
@@ -14,12 +18,11 @@ Open `index.html` in a browser, or run `python -m http.server 8000` from this di
 - Connect the quote form to a working email or form endpoint. The current form is intentionally a demo and does not transmit or store submissions.
 - Review image licensing/availability and test on mobile.
 
-## Deploy with GitHub Pages
+## Deployment
 
-In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. After the deployment finishes, GitHub will show the published URL in that section.
+The current customer preview is hosted on Vercel: https://yosef-cleaning-solutions.vercel.app/.
 
-
-## Deploy to Vercel
+### Deploy to Vercel
 
 This is a static HTML/CSS/JavaScript website. No build command or framework is required.
 
