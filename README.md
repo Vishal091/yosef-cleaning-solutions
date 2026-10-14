@@ -17,3 +17,18 @@ Open `index.html` in a browser, or run `python -m http.server 8000` from this di
 ## Deploy with GitHub Pages
 
 In the repository, open **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save. After the deployment finishes, GitHub will show the published URL in that section.
+
+
+## Deploy to Vercel
+
+This is a static HTML/CSS/JavaScript website. No build command or framework is required.
+
+1. Sign in to [Vercel](https://vercel.com/) and choose **Add New → Project**.
+2. Import `Vishal091/yosef-cleaning-solutions` from GitHub and authorize access if prompted.
+3. In project settings, choose **Other** as the framework preset if Vercel does not detect a static site automatically.
+4. Leave **Build Command** and **Output Directory** empty/default; the site files live in the repository root.
+5. Click **Deploy**. Vercel will provide a `.vercel.app` URL.
+6. Test the homepage, FAQ chatbot and mobile layout on the deployed URL.
+7. For a custom domain, add it in **Project → Settings → Domains** and follow Vercel's DNS instructions.
+
+The `vercel.json` file adds basic security headers and a short cache duration for the chatbot script. The quote form is still a demo and does not transmit submissions. The chatbot is a static FAQ assistant, not a generative AI service.
